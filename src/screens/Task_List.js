@@ -3,6 +3,7 @@ import {StyleSheet, View, Text, ImageBackground} from "react-native"
 import today_Image from '../../assents/imgs/today.jpg'
 import moment from "moment"
 import 'moment/locale/pt-br'
+import Task from "../components/Task"
 export default class Task_List extends Components{
     render(){
         const today = moment().locale('pt-br').format('dddd, DD [de]  MMMM [de] YYYY')
