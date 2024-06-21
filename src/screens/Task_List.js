@@ -18,7 +18,15 @@ export default class Task_List extends Components{
                  </ImageBackground>
                 
                 <View style={styles.tasklist}>
-                 <Text> Lista de Tarefas </Text>
+                 <Task  description = "Estudar para a prova do Hereman" 
+                 estimate_ at={new Date()}
+                 done_at={null}     
+                 />
+               <Task  description = "Fazer a prova do Hereman" 
+                 estimate_ at={new Date()}
+                 done_at={null}     
+                 />
+                 
                 </View>
             
             </View>
